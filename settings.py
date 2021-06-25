@@ -63,7 +63,7 @@ class Settings:
         #通关所需打击的坦克数量的数量
         self.fire_aliennum = 0 #击杀的坦克数量
         self.aliennum = 0 #已经产生的坦克数量
-        self.aliensmaxnum = 1
+        self.aliensmaxnum = 20
         #游戏节奏加快的速度
         self.speedup_scale = 1.2
         #外星人分数提高的速度
