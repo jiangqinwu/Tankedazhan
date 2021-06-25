@@ -200,7 +200,7 @@ class AlienInvasion:
             for prop in self.props.sprites():
                 if prop.whether_get:
                     prop.Disappearance()
-                    self.props.move()
+                    self.props.remove()
             
             #随机生成敌方坦克，并将我方坦克放到屏幕底部正中央
             self._create_fleet()
