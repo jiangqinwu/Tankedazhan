@@ -85,7 +85,7 @@ class Alien(Sprite):
         #screen_rect = self.screen.get_rect()
         if self.rect.right > self.screen.get_rect().right  or self.rect.left < 0  \
         or self.rect.top < 0 or self.rect.bottom > self.screen.get_rect().bottom :
-            print(self.rect.bottom,self.rect.right)
+            
             return True
         
     def update(self):
