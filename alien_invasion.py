@@ -252,7 +252,7 @@ class AlienInvasion:
                     if alien.blood <= 0:
                         self.aliens.remove(alien)
                         self.settings.fire_aliennum += 1 #击杀的坦克数量
-                        print(self.settings.fire_aliennum)
+                       
         self._level_increse()
     
     
